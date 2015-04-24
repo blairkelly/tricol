@@ -42,6 +42,11 @@ body {
     opacity: 0.555;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container {
     min-height: 100%;
     width: 100%;
@@ -54,13 +59,28 @@ body {
 
     text-align: center;
 
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
     align-items: center;
+
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
     justify-content: center;
 }
 
 .centrify {
+    -webkit-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
     flex: 0 1 auto;
+
     padding: 20px 30px;
 
     background-color: rgba(0,0,0,0.666);
