@@ -24,7 +24,6 @@ var shuffle = function () {
 $(document).ready(function () {
     setTimeout(function () {
         getdims();
-        console.log(params);
         setRandomLocation();
         $('.doug').addClass('opaque')   
         setTimeout(function () {
