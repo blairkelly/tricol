@@ -114,3 +114,36 @@ h1 {
     content: "”";
 }
 
+.doug {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+
+    opacity: 0;
+}
+.doug.opaque {
+    opacity: 1;
+}
+.doug>img {
+    width: 120px;
+    border: 2px solid #fff;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.transitionOpacity {
+    -webkit-transition: opacity 0.800s;
+    -moz-transition: opacity 0.800s;
+    -o-transition: opacity 0.800s;
+    transition: opacity 0.800s;   
+}
+.transition {
+    -webkit-transition: top 0.345s, left 0.345s, opacity 0.800s;
+    -moz-transition: top 0.345s, left 0.345s, opacity 0.800s;
+    -o-transition: top 0.345s, left 0.345s, opacity 0.800s;
+    transition: top 0.345s, left 0.345s, opacity 0.800s;   
+}
